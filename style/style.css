@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-container{
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    padding: 0% 150px;
+}
+.banner-content{
+   
+}
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 32px 0px;
+    width: 65%;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+
+}
+.banner-image{
+   
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.banner-item-pic{
+    width: 500px;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 178px;
+   
+}
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 24px;
+    margin-bottom: 48px; 
+}
+.flower-collection{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    gap: 25px;
+   
+}
+.flower-item1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 80px 0px 80px;
+}
+.flower-item2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 60px 0px 60px;
+}
+.flower-item3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 80px 0px 80px;
+}
+.flower-collection .flower{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+ul{
+    display: flex;
+    gap: 280px;
+    margin-left: 380px;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+    margin-bottom: 128px;
+}
+
+
+
+.sign-up-container{
+    height:650px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-up-information{
+    text-align: center;
+    padding-left: 200px;
+}
+.sign-up-offer-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.text-primary{
+    color: #E55473;
+}
+.sign-up-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    width:55%;
+    margin: auto;
+    margin-bottom: 52px;
+}
+.welcome-images{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 100px 421px 100px 0px;
+}
+
+   
+.special-offer{
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+   margin-top: 128px;
+
+}
+.special-offer-title{
+    color: #272727;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 20px;
+
+}
+.special-offer-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.special-item-container{
+    display: flex;
+    align-items: center;
+    padding-left: 220px;
+    padding-top: 24px;
+    gap: 30px;
+}
+.buy-now{
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 43px;
+    color: #FFFFFF;
+    font-size: 20px;
+   margin: 15px 0px 30px 800px;
+}
+
+
+    
+.instagram-pic-collection{
+        display: flex;
+       
+        width: 80%;
+        margin: auto;   
+        gap: 50.5px;   
+}
+.social-platform-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 128px;
+}
+.social-platform-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   margin-top: 24px;
+   margin-bottom: 48px;
+
+}
+.instagram-picture{
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+.subscribe-container{
+    width: 80%;
+    margin: auto;
+   background-image: url('../Rectangle\ 9\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 128px;
+}
+.latest-coupon-offer{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 16px;
+
+}
+.latest-coupon-offer-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+input{
+    padding: 22px 512px 22px 22px;
+    margin-left: 290px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 121px;
+}
+.subscribe{
+    padding:18px 31px ;
+    margin-left: 16px;
+    border-radius: 8px;
+    background: #E55473; 
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+}
+
+footer{
+    background: #111010;
+    text-align: center;
+    margin-top: 128px;
+}
+.shop-name-color{
+    color: #E55473;
+}
+.shop-name{
+    color:#FFFFFF;
+    font-family: Lato;
+    font-size: 48px;
+    padding-top: 128px;
+}
+
+.shop-details{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 24px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+   padding: 32px 0px 128px 0px;
+}
+
+
+  
+
